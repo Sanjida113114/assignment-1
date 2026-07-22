@@ -112,7 +112,11 @@
     font-size: 18px;
     color:rgba(39, 39, 39, 0.6)
 }
-
+.section-container{
+  width: 1440px;
+  height: 605px;
+  justify-content: center;
+}
  .rectangle{
  width:410px;
     height:390px;
@@ -121,6 +125,9 @@
      padding-top: 100px;
     
 }
+ .rectangle p{
+  text-decoration: underline;
+ }
  .rectangle img{
     height:390px;
      width:314px;
@@ -151,7 +158,17 @@
     height: 390px;
     width:314px;
 }
-.image-des{
-    display:flex;
-    gap:150px;
-    justify-content: center;
+.flower-img{
+  background-color: rgba(39, 39, 39, 0.05);
+}
+.section-img{
+   width: 1440px;
+  height: 309px;
+  margin:150px auto;
+  justify-content: center;
+
+}
+.img-container{
+  display: flex;
+}
+  
